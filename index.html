@@ -1,0 +1,101 @@
+<html>
+ <head>
+  <title>Calculator</title>
+  <link rel="stylesheet" href="calculator.css">
+ </head>
+ <body>
+ 
+    <!--body of calculator-->
+	<div class="main-div">
+	  
+	   <!--buttons in calculator-->
+	   <div class="btn1"><button onclick="add()">Add</button></div>  
+	   <div class="btn2"><button onclick="sub()">Sub</button></div>
+       <div class="btn3"><button onclick="multiply()">Multiply</button></div>
+	   <div class="btn4"><button onclick="per()">Per</button></div>
+	   <div class="btn5"><button onclick="area()">Area</button></div>
+	   <div class="btn6"><button onclick="divide()">Divide</button></div>
+	
+	</div>
+	<script>
+	  function add(){
+	     
+        var a = prompt("please enter the first value");
+		a = parseInt(a);
+		
+		var b = prompt("please enter the second value");
+		b = parseInt(b);
+		
+		 c = a+b;
+		 
+		 alert(c); 
+	  
+	  }
+	  
+	  function sub(){
+	  
+	    var a = prompt("please enter the first value");
+		a = parseInt(a);
+		
+		var b = prompt("please enter the second value");
+		b = parseInt(b);
+		
+		c= a-b;
+		
+		alert(c);
+	  
+	}
+	function multiply(){
+	  
+	    var a = prompt("please enter the first value");
+		a = parseInt(a);
+		
+		var b = prompt("please enter the second value");
+		b = parseInt(b);
+		
+		c= a*b;
+		
+		alert(c);
+	  
+	}
+	
+	function divide(){
+	  
+	    var a = prompt("please enter the first value");
+		a = parseInt(a);
+		
+		var b = prompt("please enter the second value");
+		b = parseInt(b);
+		
+		c= a/b;
+		
+		alert(c);
+	}
+	function area(){
+	  
+	    var a = prompt("please enter the first value");
+		a = parseInt(a);
+		
+		var b = prompt("please enter the second value");
+		b = parseInt(b);
+		
+		c= 3.14*a*b;
+		
+		alert(c);
+	}
+	function per(){
+	  
+	    var a = prompt("please enter the first value");
+		a = parseInt(a);
+		
+		var b = prompt("please enter the second value");
+		b = parseInt(b);
+		
+		c= (a/b)*100;
+		
+		alert(c);
+	  }
+	  
+	  </script>
+</body>
+</html>
